@@ -1,7 +1,7 @@
 import os
 #print("Select game:")
 runner = {
-	"1":"python3 zork.py",
+	"1":"/usr/bin/python3 zork.py",
 	"2":"python /usr/local/bin/pywumpus.py"
 }
 while True:
