@@ -8,6 +8,5 @@ runner = {
 while True:
 	print("1. Zork\n2. Wumpus\n3. Adventure On The Web\n")
 	input_text = input("Choose game:")
-	os.system("ls && pwd")
 	os.system(runner[input_text])
 	break
